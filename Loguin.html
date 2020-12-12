@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet"  href="Estilo.css">
+</head>
+<body">
+            <form action= "index.html" method="POST">
+                <div>
+                        <pre class="titulo-formulario">    &#128274;  Sign In</pre>
+                    <div id= "login2">  
+                        <div>
+                            <h4>E-mail address</h4>
+                            <center><input type="email" id="user" placeholder="  Ingrese Su Usuario" required name="correo"></center>
+                            <h4>Password</h4>
+                            <center><input type="password" id="pass"  pattern=".{6,}" placeholder ="  Ingrese Su Contraseña" required name="password"></center>
+                            <center><input type="submit" onclick="validador()"value="Sign In"></center>
+                            <output id="validador"></output>
+                        </div> 
+                    </div>        
+                </div>  
+            </form>     
+              
+                 
+        
+    <script src="login.js"></script>
+</body>
+</html>

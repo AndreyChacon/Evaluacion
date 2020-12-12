@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GUIA JS</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <form action="">  
+        <fieldset>
+            <legend>Tienes Licencia De Conducir</legend>
+            <input type="radio" required name ='driver' id="rb1" value="si"><label for="rb1">Si</label>
+            <input type="radio" required name ='driver' id="rb2" value="no"><label for="rb1">No</label>  
+        </fieldset>
+       
+       
+        <label for="mt1">¿Cual Es Tu Motocicleta Favorita? <abbr title="Este campo es obligatorio" aria-label="required">*</abbr></label>
+        <input type="text" id="t1" name = "Motos" list="l1" required>
+
+        <datalist id= "l1"> 
+            <option>SUZUKI</option>
+            <option>YAMAHA</option>
+            <option>HONDA</option>
+            <option>KAWASAKI</option>
+            <option>DUCATI</option>
+        </datalist>
+
+
+        <p>
+            <label for="n1">Cual es tu edad</label>
+            <input type="number" min="15" max="100" step="1" id="n1" name = "edad" required>
+        </p>
+
+        <p>
+            <button>Enviar</button>
+        </p>
+    
+    
+    
+
+    </form>
+
+
+    <script src="index.js"></script>
+</body>
+</html>
